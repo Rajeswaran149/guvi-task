@@ -1,5 +1,5 @@
 <?php
-$conn = mysqli_connect("localhost:3306", "root", "", "guvi");
+$conn = mysqli_connect("localhost", "root", "", "guvi");
 // Choose a function depends on value of $_POST["action"]
 
 if($_POST["action"] == "submit"){
